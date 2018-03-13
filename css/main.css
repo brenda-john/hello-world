@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 345px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    color: aliceblue;
+    justify-content: space-between;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 2em auto;
+    width: 50em;
+}
+
+img {
+    height: 75%;
+    width: 75%;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    width: 3em;
+    background-color: navajowhite;
+}
