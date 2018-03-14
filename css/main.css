@@ -54,9 +54,11 @@ img {
     display: flex;
     margin-bottom: 3em;
     max-width: 60em;
-    height: 150px;
+    height: 9.375em;
     align-items: center;
     background-color: rgb(102, 102, 102);
+    color: aliceblue;
+    font-size: 1.5em;
     border: none;
     justify-content: center;
 }
@@ -67,15 +69,22 @@ main {
 }
 
 div > img {
-    max-height: 20em;
-    width: auto;
-}
+    height: auto;
+    width: 15em;
+ }
 
 p {
     font-family: sans-serif;
-    text-align: justify;
+    text-align: left;
+    width: 15em;
 }
 
 h2 {
     text-align: center;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
