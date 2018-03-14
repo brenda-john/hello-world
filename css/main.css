@@ -32,21 +32,25 @@ img {
     width: 100%;
     height: auto;
 }
+#product {
+    background: #e45026;
+}
 
 .nav a {
     display: flex;
     text-decoration: none;
-    width: 3em;
-    background-color: navajowhite;
+    color: antiquewhite; 
+    max-width: 6em;
+    padding: .5em;
+    background-color: #f3923d;
 }
 
 .box {
     display: flex;
     margin-bottom: 3em;
     max-width: 60em;
-    max-height: 60em;
-    background-color: rgb(219, 136, 12);
-    border: solid rgb(250, 121, 0);
+    background-color: rgb(102, 102, 102);
+    border: none;
     justify-content: center;
 }
 
@@ -55,7 +59,10 @@ main {
     flex-direction: row;
 }
 
-
+div > img {
+    max-height: 20em;
+    width: auto;
+}
 
 p {
     font-family: sans-serif;
