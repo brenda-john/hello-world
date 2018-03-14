@@ -29,8 +29,8 @@ body {
 }
 
 img {
-    height: 75%;
-    width: 75%;
+    width: 100%;
+    height: auto;
 }
 
 .nav a {
@@ -42,9 +42,11 @@ img {
 
 .box {
     display: flex;
+    margin-bottom: 3em;
     max-width: 60em;
-    max-height: 30em;
-    border: solid mediumspringgreen;
+    max-height: 60em;
+    background-color: rgb(219, 136, 12);
+    border: solid rgb(250, 121, 0);
     justify-content: center;
 }
 
@@ -52,6 +54,8 @@ main {
     display: flex;
     flex-direction: row;
 }
+
+
 
 p {
     font-family: sans-serif;
